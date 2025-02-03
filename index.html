@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/img/logo.png" type="image/png">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Fatima Siddiqa</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Fatima Siddiqa</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#Experience" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#Projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+          <div class="home__data">
+              <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Fatima Siddiqa</span><br></h1>
+                <h2> And welcome to my <span class="home__title-color">Website Portfolio!</span></h2>
+          </div>  
+          <div class="home__img" style="transform: translateX(20px) translateY(30px);">
+              <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin-top: 30px;">
+                <mask id="mask0" mask-type="alpha">
+                      <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                  </mask>
+                  <g mask="url(#mask0)">
+                      <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                      <image class="home__blob-img" x="75" y="140" href="assets/img/perfil.png"/>
+                    </g>
+              </svg>
+          </div>
+        </section>
+
+
+        
+          <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title"><span class="home__title-color">About</span></h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Hello There!</h2>
+                        <p class="about__text">Nice to meet you! I'm Fatima Siddiqa, a passionate Artificial Intelligence Engineer with a keen interest in Generative AI, Machine Learning, and Neural Networks.</p>
+                        <p class="about__text">I have a background in Natural Language Processing; particularly Generative AI. My GenAI expertise includes in-depth knowledge and projects related to Retrieval Augmented Generation, LLM fine-tuning, and AWS-based deployment and scaling of complete GenAI solutions.</p>
+                        <p class="about__text">P.S: Major cat person and a bibliophile on the side!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== Experience =====-->
+            <section class="Experience section" id="Experience">
+                <h2 class="section-title"><span class="home__title-color">Experience</span></h2>
+
+                <div class="Experience__container bd-grid">          
+                    <div class="column">
+                        <h3 class="Experience__subtitle">01</h3>
+                        <p class="Experience__text">Job Title: AWS GenAI Engineer</p>                        
+                        <p class="Experience__text">Company: Emumba Private Limited</p>
+                        <p class="Experience__text">Duration: August 2024-Present</p>
+                    </div>
+                    
+                    <div class="column">
+                        <h3 class="Experience__subtitle">02</h3>
+                        <p class="Experience__text">Job Title: AWS GenAI Intern (Paid)</p>                        
+                        <p class="Experience__text">Company: Emumba Private Limited</p>
+                        <p class="Experience__text">Duration: June-2024-August 2024</p>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--===== Projects =====-->
+            <section class="projects-section" id="Projects">
+              <h2 class="section-title"><span class="home__title-color">Projects</span></h2>
+              <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                  <h3 class="project-title">AI Expert Chatbot</h3>
+                  <p class="project-description">To experiment with advanced RAG techniques, i created a chatbot with a document lifecycle functionality. <br> For this project I used Langchain, Groq, and Trulens.<br>Whenever a document is added or deleted in the specified directory; the change is reflected in the AI's knowledge. <br>The application also has an admin panel to delete, view or add files.<br>It also provides evaluation metrics for every response.</p>
+                  <div class="project-links">
+                    <a href="https://github.com/FatimaSiddiqa/RAG-with-document-lifecycle.git" class="btn btn-github">Github</a>
+                    <a href="assets/live demos/rag-chatbot.mp4" class="btn btn-demo">Live Demo</a>
+                  </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                  <h3 class="project-title">Book Purchasing Assistant</h3>
+                  <p class="project-description">This agentic application uses a Langraph (from the Langchain framework) and Groq as a provider to answer the user questions about books. The agent uses an LLM to determine what the next action should be (for example which tool to use, what does the user want to do, is the conversation over).</p>
+                  <div class="project-links">
+                    <a href="https://github.com/FatimaSiddiqa/book-purchasing-assistant.git" class="btn btn-github">Github</a>
+                    <a href="assets/live demos/book assistant.mp4" class="btn btn-demo">Live Demo</a>
+                  </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                  <h3 class="project-title">CineSense</h3>
+                  <p class="project-description">CineSense is a sentiment analyzer for movies.<br>This project fine tuned an LLM over a movie reviews dataset to make it a sentiment analysis expert.<br>I got a chance to experiment with different types of LLMs and their capabilities, and also types of finetunings.<br>I also took this chance to experiment with hyperparameter tuning.</p>
+                  <div class="project-links">
+                    <a href="https://github.com/FatimaSiddiqa/Movie-reviews-sentiment-analysis.git" class="btn btn-github">Github</a>
+                    <a href="assets/live demos/cinesense.mp4" class="btn btn-demo">Live Demo</a>
+                  </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card">
+                  <h3 class="project-title">MumbaMate</h3>
+                  <p class="project-description">MumbaMate was created for my Internship Capstone Project. It is a Slack app that makes HR support accessible and efficient for the company's employees using RAG (Retrieval Augmented Generation).<br>It also has a website that serves as an admin panel, allowing authorized individuals to manage files and view the statistical dashboard.</p>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card">
+                  <h3 class="project-title">PhysioCare</h3>
+                  <p class="project-description">PhysioCare was my Final Year Project developed as a team.<br>It is an AI-based physiotherapy assistant developed as a desktop-based application to guide you through your exercises.<br>PhysioCare leverages pose estimation and computer vision to ensure the correctness of exercises in real-time through a camera.</p>
+                </div>
+              </div>
+            </section>
+
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+              <h2 class="section-title"><span class="home__title-color">Contact</span></h2>
+
+            <!-- Social Links -->
+            <div class="contact__social">
+              <a href="https://www.linkedin.com/in/fatimasiddiqaa" class="contact__social-icon" target="_blank" title="LinkedIn">
+                <i class='bx bxl-linkedin'></i>
+              </a>
+              <a href="mailto:fatima.siddiqa201@gmail.com" class="contact__social-icon" title="Email">
+                <i class='bx bx-envelope'></i>
+              </a>
+              <a href="https://github.com/FatimaSiddiqa" class="contact__social-icon" target="_blank" title="GitHub">
+                <i class='bx bxl-github'></i>
+              </a>
+            </div>
+            </section>
+
+            
+            <footer>
+              <p>Copyright &#169; 2024 Fatima Siddiqa. All Rights Reserved.</p>
+            </footer>
+            <script src="script.js"></script>
+          </body>
+        </html>
+        
